@@ -1,0 +1,211 @@
+.nav{
+    width:750px;
+    height:100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+  }
+.navLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:212px;
+    height:100%;
+    padding-left: 30px;
+    padding-top:105px;
+    border-right: 1px solid grey;
+}
+.imgNav{
+    max-width:20px;
+    max-height:20px;
+    color:inherit;
+    margin-right: 12px;
+}
+.navBottom{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 41px;
+    color:black;
+    margin-bottom: 20px;
+}
+  .item {
+      height:40px;
+    color:black;
+      display:flex;
+      margin-bottom: 15px;
+      text-decoration: none;
+  }
+.item:hover {
+    color: #ff1b42;
+}
+.active{
+    color: #ff1b42;
+    text-decoration: none;
+}
+.navRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:538px;
+    height:100%;
+}
+.navRightUpperPart{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    height:600px;
+}
+.accountItem{
+    margin: 5px;
+    min-width:448px;
+    min-height:70px;
+    width:448px;
+    height:70px;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color:black;
+    padding-left: 25px;
+    background-color: white;
+}
+.activeI{
+    margin: 5px;
+    padding-left: 25px;
+    background: rgb(253,58,108);
+    background: linear-gradient(0deg, rgba(253,58,108,1) 0%, rgba(245,133,92,1) 100%);
+    box-shadow: 5px 5px 10px grey;
+    min-width:448px;
+    min-height:70px;
+    width:448px;
+    height:70px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color:white;
+    margin-left: 30px;
+    position: relative;
+}
+.activeI::before{
+    content: " ";
+    background-color:#FD3A6C;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    left:-20px;
+
+;
+}
+.circle{
+    background-color:#FD3A6C;
+    width:5px;
+    height:5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    margin-top: 9px;
+}
+.currencyImg{
+    fill:white;
+    color:white;
+    background-color: blue;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.marginBig{
+    margin-left: 150px;
+}
+.title{
+    width:180px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 85px;
+}
+.balance{
+    color:inherit;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navRightLowerPart{
+    height:226px;
+    width:100%;
+    border-top-left-radius: 50px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+.navRightLowerPart_1{
+    width:100%;
+    height:50%;
+    display: flex;
+}
+.navRightLowerPart_2{
+    width:100%;
+    height:50%;
+    display: flex;
+}
+.creditPart{
+    position:relative;
+    color:black;
+    width:50px;
+    height:50px;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+.creditCardItem{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.plusIcon{
+    position:absolute;
+    top:-10px;
+    left:23px;
+}
+.earnPart{
+    position:relative;
+    color:black;
+    width:50px;
+    height:50px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.underDollar{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.iconDollar{
+    position:absolute;
+    top:-6px;
+    left:9px;
+}
+.textContainer{
+    width:300px;
+    height:100px;
+    padding-top: 46px;
+    margin-left: 15px;
+}
+.text1{
+    font-weight: 700;
+    color: #262626;
+    font-size: 18px;
+}
+.text2{
+    color: #797979;
+    font-weight: 400;
+   font-size: 14px;
+}
+.paragraph{
+    margin:50px 0px 21px 33px;
+    color:black;
+    font-size: 20px;
+    font-weight: 700;
+}

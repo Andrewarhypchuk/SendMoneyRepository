@@ -1,0 +1,29 @@
+.icon{
+    width:25px;
+    height:25px;
+    padding: 3px;
+    background-color: rgba(245, 133, 92, 1);
+    border-radius: 50%;
+
+}
+.iconNoneBackWhiteColor{
+    width:25px;
+    height:25px;
+    padding: 3px;
+    background-color:inherit;
+    border-radius: 50%;
+}
+.iconWhiteBack{
+    width:25px;
+    height:25px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 50%;
+}
+.iconNoneBack{
+    width:25px;
+    height:25px;
+    padding: 3px;
+    background-color: none;
+    border-radius: 50%;
+}
